@@ -29,11 +29,17 @@ basepos = []  # default to not specified here
 
 # k803 example
 datadir = '../data/k803'
-navfile = 'ROVER.25P'
-rovfile = 'ROVER.25O'
-basefile = 'BASE.25O'
+navfile = 'rover1.nav'
+rovfile = 'rover1.obs'
+basefile = 'base1.obs'
 cfgfile = 'config_k803.py'  # must be in src folder or absolute path
 
+
+# datadir = 'D:/sinodata/testdata/250324-K803-CL/620PK/620PK_RTK/20250325_141710_sino'
+# navfile = '20250325_141710_rover.nav'
+# rovfile = '20250325_141710_rover.obs'
+# basefile = '20250325_141710_base.obs'
+# cfgfile = 'config_k803.py'  # must be in src folder or absolute path
 ###################################################################
 
 # Copy config file
